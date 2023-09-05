@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 
 def inicio(req):
-    return render(req, "inicio.html")
+    return render(req, 'inicio.html')
 
 def productos(req):
     return render(req, 'productos.html')

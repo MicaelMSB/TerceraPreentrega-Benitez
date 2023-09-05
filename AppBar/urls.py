@@ -5,6 +5,5 @@ urlpatterns = [
 
     path('', inicio),
     path('productos/', productos),
-    path('', inicio, name='inicio'),
-
+    
 ]
